@@ -1,0 +1,7 @@
+static_sites:
+  - name: pm-framework-guide
+    buildCommand: npm run build
+    publishDir: build
+    envVars:
+      - key: NODE_VERSION
+        value: 18.0.0 
